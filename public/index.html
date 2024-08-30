@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie and TV Show Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Movie and TV Show Tracker</h1>
+  
+  <form id="mediaForm">
+    <input type="text" id="title" placeholder="Title" required>
+    <select id="type" required>
+      <option value="Movie">Movie</option>
+      <option value="TV Show">TV Show</option>
+    </select>
+    <input type="date" id="releaseDate">
+    <button type="submit">Add</button>
+  </form>
+
+  <h2>Watchlist</h2>
+  <ul id="mediaList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
